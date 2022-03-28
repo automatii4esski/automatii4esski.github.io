@@ -1,0 +1,59 @@
+@font-face {
+   font-family: 'AirbnbCereal-Book';
+   src: local('AirbnbCereal-Book'),
+        url('../fonts/AirbnbCereal-Book.woff2') format('woff2'),
+        url('../fonts/AirbnbCereal-Book.woff') format('woff');
+   font-style: normal;
+   font-weight: 350;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: 'AirbnbCereal-Medium';
+   src: local('AirbnbCereal-Medium'),
+        url('../fonts/AirbnbCereal-Medium.woff2') format('woff2'),
+        url('../fonts/AirbnbCereal-Medium.woff') format('woff');
+   font-style: normal;
+   font-weight: 500;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: 'AirbnbCereal-Bold';
+   src: local('AirbnbCereal-Bold'),
+        url('../fonts/AirbnbCereal-Bold.woff2') format('woff2'),
+        url('../fonts/AirbnbCereal-Bold.woff') format('woff');
+   font-style: normal;
+   font-weight: 700;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: 'Eksell Display Medium';
+   src: local('Eksell Display Medium'),
+        url('../fonts/Eksell Display Medium.woff2') format('woff2'),
+        url('../fonts/Eksell Display Medium.woff') format('woff');
+   font-style: normal;
+   font-weight: 500;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: 'Eksell Display Small';
+   src: local('Eksell Display Small'),
+        url('../fonts/Eksell Display Small.woff2') format('woff2'),
+        url('../fonts/Eksell Display Small.woff') format('woff');
+   font-style: normal;
+   font-weight: 300;
+   font-display: swap;
+}
+
+/* 
+   font-family: 'AirbnbCereal-Book'; 
+   font-family: 'AirbnbCereal-Medium'
+   font-family: 'AirbnbCereal-Bold';
+   font-family: 'Eksell Display Medium';
+   font-family: 'Eksell Display Small';
+   blue: #002248; 
+*/
+
