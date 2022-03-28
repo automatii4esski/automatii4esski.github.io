@@ -1,4 +1,7 @@
 /* Global */
+html {
+  scroll-behavior: smooth;
+}
 
 body{
    font-family: 'AirbnbCereal-Book', sans-serif; 
