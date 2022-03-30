@@ -59,26 +59,6 @@ p{
    font-family: 'AirbnbCereal-Medium', sans-serif;
 }
 
-.to-top-btn{
-   position: fixed;
-   right: 0;
-   bottom: 0;
-   border: none;
-   font-weight: 500;
-   border-radius: 10px 0 0 0;
-   max-height: 0;
-   padding: 0;
-}
-
-.to-top-btn--visible{
-   padding: 6px 25px;
-   max-height: 100px;
-}
-
-.to-top-btn:hover{
-   padding: 10px 25px;
-}
-
 .body--block{
    overflow: hidden;
    position: relative;
@@ -1076,6 +1056,26 @@ p{
 
 .contact__title{
    max-width: 410px;
+}
+
+.to-top-btn{
+   position: fixed;
+   right: 0;
+   bottom: 0;
+   border: none;
+   font-weight: 500;
+   border-radius: 10px 0 0 0;
+   max-height: 0;
+   padding: 0;
+}
+
+.to-top-btn--visible{
+   padding: 6px 25px;
+   max-height: 100px;
+}
+
+.to-top-btn:hover{
+   padding: 10px 25px;
 }
 
 .footer__inner{
