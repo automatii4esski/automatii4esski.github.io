@@ -1,8 +1,9 @@
 import React from 'react';
-import './App.css';
+import './App.module.scss';
+import About from './pages/About';
 
 function App() {
-  return <></>;
+  return <About />;
 }
 
 export default App;
