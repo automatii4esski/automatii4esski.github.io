@@ -4,9 +4,11 @@ import About from './pages/About';
 
 function App() {
   return (
-    <div className={styles.container}>
-      <About />
-    </div>
+    <main className={styles.main}>
+      <div className={styles.container}>
+        <About />
+      </div>
+    </main>
   );
 }
 

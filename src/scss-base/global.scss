@@ -5,8 +5,16 @@ body {
   font-weight: 400;
 }
 
+.main {
+  padding-top: 24px;
+}
+
 .container {
-  width: 100px;
-  height: 100px;
-  background: #000;
+  max-width: 900px;
+  width: 100%;
+  margin: 0 auto;
+  min-height: 700px;
+  padding: 62px 110px 80px;
+  background: #fff;
+  border-radius: 12px;
 }
