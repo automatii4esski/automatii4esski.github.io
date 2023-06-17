@@ -1,0 +1,15 @@
+.link {
+  color: #5558fa;
+  position: relative;
+  padding-left: 20px;
+
+  &::before {
+    content: '';
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    background: url('../../../img/icons/folder.svg') center/cover no-repeat;
+    left: 0;
+    top: 1px;
+  }
+}

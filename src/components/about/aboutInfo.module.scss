@@ -1,0 +1,10 @@
+.name {
+  margin-bottom: 8px;
+  font-weight: 600;
+  font-size: 26px;
+  text-transform: capitalize;
+}
+
+.link + .link {
+  margin-left: 16px;
+}
