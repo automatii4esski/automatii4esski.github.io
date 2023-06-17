@@ -1,9 +1,13 @@
 import React from 'react';
-import './App.module.scss';
+import styles from './App.module.scss';
 import About from './pages/About';
 
 function App() {
-  return <About />;
+  return (
+    <div className={styles.container}>
+      <About />
+    </div>
+  );
 }
 
 export default App;
