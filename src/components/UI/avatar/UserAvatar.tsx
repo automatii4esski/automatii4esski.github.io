@@ -1,7 +1,7 @@
 import React from 'react';
 import { MyFC } from '../../../types/common';
-import { IUserAvatar } from '../../../types/about';
 import styles from './userAvatart.module.scss';
+import { IUserAvatar } from '../../../types/UI';
 
 const UserAvatar: MyFC<IUserAvatar> = ({ src, className, ...props }) => {
   return (

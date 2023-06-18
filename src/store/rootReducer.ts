@@ -1,6 +1,6 @@
 import { combineReducers } from 'redux';
+import { aboutReducer } from './about/aboutReducer';
 
-export const reducers = {
-};
-
-export const rootReducer = combineReducers(reducers);
+export const rootReducer = combineReducers({
+  about: aboutReducer,
+});

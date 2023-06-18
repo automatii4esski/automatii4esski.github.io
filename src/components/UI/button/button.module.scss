@@ -1,0 +1,28 @@
+@import '../../../scss-base/vars.scss';
+
+.button {
+  border: none;
+  padding: 12px 16px;
+  border-radius: $ui-border-radius;
+  border: 1px solid $ui-color;
+  background: none;
+  cursor: pointer;
+  transition: background 0.15s, border 0.15s;
+
+  &:hover {
+    border-color: $ui-hover-color;
+  }
+}
+
+.fill {
+  background: $ui-color;
+  color: #fff;
+
+  &:hover {
+    background: $ui-hover-color;
+  }
+}
+
+.hollow {
+  color: $ui-color;
+}

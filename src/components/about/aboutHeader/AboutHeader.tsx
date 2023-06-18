@@ -1,8 +1,8 @@
 import React from 'react';
-import { MyFC } from '../../types/common';
+import { MyFC } from '../../../types/common';
 import styles from './aboutHeader.module.scss';
-import UserAvatar from '../UI/avatar/UserAvatar';
-import AvatarIMG from '../../img/avatar/avatar.jpg';
+import UserAvatar from '../../UI/avatar/UserAvatar';
+import AvatarIMG from '../../../img/avatar/avatar.jpg';
 import AboutInfo from './AboutInfo';
 
 const AboutHeader: MyFC = () => {

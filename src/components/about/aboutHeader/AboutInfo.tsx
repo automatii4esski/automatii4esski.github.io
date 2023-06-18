@@ -1,6 +1,6 @@
 import React from 'react';
-import SocialLink from '../UI/link/SocialLink';
-import { MyFC } from '../../types/common';
+import SocialLink from '../../UI/link/SocialLink';
+import { MyFC } from '../../../types/common';
 import styles from './aboutInfo.module.scss';
 
 const AboutInfo: MyFC = () => {
@@ -23,8 +23,8 @@ const AboutInfo: MyFC = () => {
     <div>
       <p className={styles.name}>Скворцов Иван</p>
       <div className={styles.socials}>
-        {socials.map((social) => (
-          <SocialLink className={styles.link} href={social.link}>
+        {socials.map((social, i) => (
+          <SocialLink key={i} className={styles.link} href={social.link}>
             {social.text}
           </SocialLink>
         ))}
