@@ -1,0 +1,35 @@
+@import '../../../scss-base/vars.scss';
+
+.dot {
+  text-align: center;
+  color: #a6a6a6;
+  font-weight: 600;
+
+  &::before {
+    content: '';
+    display: block;
+    margin-bottom: 12px;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background: #a6a6a6;
+  }
+}
+
+.active {
+  color: $ui-color;
+
+  &::before {
+    content: '';
+    background: url('../../../img/icons/dot.svg') center no-repeat $ui-color;
+  }
+}
+
+.done {
+  color: $ui-color;
+
+  &::before {
+    content: '';
+    background: url('../../../img/icons/done.svg') center no-repeat $ui-color;
+  }
+}

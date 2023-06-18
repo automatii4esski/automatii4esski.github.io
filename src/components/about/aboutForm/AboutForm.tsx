@@ -9,12 +9,13 @@ import { selectAboutData } from '../../../store/about/aboutSelector';
 import { useTypedSelector } from '../../../hooks/useTypedSelector';
 import Input from '../../UI/input/Input';
 import MaskedInput from '../../UI/input/MaskedInput';
+import { useNavigate } from 'react-router-dom';
 
 const AboutForm = () => {
   const { email, phone } = useTypedSelector(selectAboutData);
+  const navigate = useNavigate();
 
   const {
-    register,
     handleSubmit,
     control,
     formState: { errors },
@@ -27,8 +28,8 @@ const AboutForm = () => {
     },
   });
 
-  const onSubmit = handleSubmit((data) => {
-    console.log(1);
+  const onSubmit = handleSubmit(() => {
+    navigate('create');
   });
 
   return (

@@ -1,7 +1,14 @@
+@import '../../../scss-base/vars.scss';
+
 .link {
-  color: #5558fa;
+  color: $ui-color;
   position: relative;
   padding-left: 20px;
+  transition: color 0.15s;
+
+  &:hover {
+    color: $ui-hover-color;
+  }
 
   &::before {
     content: '';

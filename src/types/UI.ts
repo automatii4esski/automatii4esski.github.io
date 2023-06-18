@@ -29,3 +29,11 @@ export interface IInputBlock extends HTMLAttributes<HTMLDivElement> {
 export interface IButton extends ButtonHTMLAttributes<HTMLButtonElement> {
   variant?: 'fill' | 'hollow';
 }
+
+export interface IProgressLine extends HTMLAttributes<HTMLDivElement> {
+  width: number;
+}
+
+export interface IProgressDot extends HTMLAttributes<HTMLDivElement> {
+  variant: 'active' | 'done' | 'disabled';
+}
