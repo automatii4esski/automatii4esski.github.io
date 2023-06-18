@@ -1,15 +1,20 @@
 import React from 'react';
-import ProgressDot from '../../UI/progressDot/ProgressDot';
+import ProgressDot from '../progressDot/ProgressDot';
 import styles from './progressLine.module.scss';
 import { MyFC } from '../../../types/common';
 import { IProgressLine } from '../../../types/UI';
 
-const ProgressLine: MyFC<IProgressLine> = ({ width }) => {
+const ProgressLine: MyFC<IProgressLine> = ({ progress }) => {
+  const ind = progress.indexOf('active');
+  const width = (ind / (progress.length - 1)) * 100;
+
   return (
     <div className={styles.wrapper}>
-      <ProgressDot variant="done">1</ProgressDot>
-      <ProgressDot variant="active">2</ProgressDot>
-      <ProgressDot variant="disabled">3</ProgressDot>
+      {progress.map((status, i) => (
+        <ProgressDot key={i} variant={status}>
+          {i + 1}
+        </ProgressDot>
+      ))}
       <div className={styles.line}></div>
       <div
         style={{ width: `${width}%` }}

@@ -30,10 +30,12 @@ export interface IButton extends ButtonHTMLAttributes<HTMLButtonElement> {
   variant?: 'fill' | 'hollow';
 }
 
+type DotType = 'active' | 'done' | 'disabled';
+
 export interface IProgressLine extends HTMLAttributes<HTMLDivElement> {
-  width: number;
+  progress: DotType[];
 }
 
 export interface IProgressDot extends HTMLAttributes<HTMLDivElement> {
-  variant: 'active' | 'done' | 'disabled';
+  variant: DotType;
 }
